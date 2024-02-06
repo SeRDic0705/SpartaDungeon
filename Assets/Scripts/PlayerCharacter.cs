@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class PlayerCharacter
 {
-    private string name { get; set; }
-    private int level { get; set; }
-    private int exp { get; set; }
-    private int atk { get; set; }
-    private int def { get; set; }
-    private int hp { get; set; }
-    private int crit { get; set; }
+    public string name { get; set; }
+    public int level { get; set; }
+    public int exp { get; set; }
+    public int atk { get; set; }
+    public int def { get; set; }
+    public int hp { get; set; }
+    public int crit { get; set; }
 
     public PlayerCharacter()
     {
