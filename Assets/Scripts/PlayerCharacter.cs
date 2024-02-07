@@ -22,4 +22,16 @@ public class PlayerCharacter
         hp = 100;
         crit = 25;
     }
+
+    public void Equip(Item item)
+    {
+        atk += item.atk;
+        def += item.def;
+    }
+
+    public void UnEquip(Item item)
+    {
+        atk -= item.atk;
+        def -= item.def;
+    }
 }
